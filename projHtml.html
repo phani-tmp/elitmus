@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Soft Skills Puzzle</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <h1>Welcome to the Soft Skills Puzzle!</h1>
+    <p>Can you find the hidden treasure by solving clues?</p>
+    <div class="container">
+        <form id="loginForm">
+            <h2>Login</h2>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <form id="puzzleForm" class="hidden">
+            <h2>Clue #1</h2>
+            <p>How many animals are present in the image:</p>
+            <img src="https://puzzlemania-154aa.kxcdn.com/products/2019/puzzle-trefl-500-pieces-wolf-nature.jpg" alt="Clue 1 Image" class="a">
+            <input type="text" id="clue1Answer" placeholder="Enter your answer" required>
+            <p class="e hidden" id="1">Your answer is wrong!try again</p>
+            <button type="submit">Submit</button>
+        </form>
+        <form id="clue2Form" class="hidden">
+            <h2>Clue #2</h2>
+            <p>What is the game the person is playing based on the picture? Write the name in 7 letters</p>
+            <img src="https://images.indianexpress.com/2023/03/virat-kohli.jpg" alt="Clue 1 Image" class="a">
+            <input type="text" id="clue2Answer" placeholder="Enter your answer" required>
+            <button type="submit">Submit</button>
+        </form>
+        <form id="clue3Form" class="hidden">
+            <h2>Clue #3</h2>
+            <p>Decode the following message to find the next clue:</p>
+            <p class="message">"What gets wetter and wetter the more it dries?"</p>
+            <p>Answer the brain teaser</p>
+            <input type="text" id="clue3Answer" placeholder="Enter your answer" required>
+            <button type="submit">Submit</button>
+        </form>
+        <form id="clue4Form" class="hidden">
+            <h2>Clue #4</h2>
+            <p>Visit the following website and find number of followers of the given page:</p>
+            <a href="https://www.example.com" target="_blank">https://instagram.com/royalchallengersbangalore?igshid=YmMyMTA2M2Y=</a>
+            <p>Write count which is visible like "26.6"</p>
+            <input type="text" id="clue4Answer" placeholder="Enter your answer in integer" required>
+            <button type="submit">Submit</button>
+        </form>
+        <form id="clue5Form" class="hidden">
+            <h2>Clue #5</h2>
+            <p> You need to solve the math problem below to complete the puzzle:</p>
+            <p id="clue-3-math" class="b">2 + 5 x 3 - 4</p>
+            <input type="text" id="clue5Answer" placeholder="Enter your answer" required>
+            <button type="submit">Submit</button>
+        </form>
+        <form id="treasureForm" class="hidden">
+            <h2 id="5"></h2>
+            <p>You have completed the puzzle!</p>
+            <p id="4"></p>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
